@@ -1,0 +1,88 @@
+/*-------------IDs-------------*/
+html {
+    --custom-font: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: var(--custom-font);
+}
+
+.subtitle {
+    font-family: var(--custom-font);
+}
+
+.title {
+    font-family: var(--custom-font);
+}
+
+#top {
+    max-height: 35vh;
+}
+
+#abodeHeader {
+    font-size: 3rem;
+}
+
+#images {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-height: 50vh;
+}
+
+#imagesBody {
+    padding: 5%;
+}
+
+#main {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#quotee {
+    padding-top: 1rem;
+}
+
+/*-------------ClASSES-------------*/
+.column .active {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.column img {
+    -webkit-filter: grayscale(1);
+    filter: gray;
+}
+
+.column img:hover{
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.column .subtitle{
+    text-align: right;
+}
+
+.columns .is-three-quarters {
+    padding-left: 150px;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.primary-color {
+    color: #67B43D;
+}
+
+.quote {
+    font-size: 1rem;
+    font-family: "Nunito";
+    text-align: left;
+}
